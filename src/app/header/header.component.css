@@ -1,0 +1,10 @@
+.navbar {
+    background-color: var(--colorPrimario);
+  }
+
+  .btn-primary{
+    color: black;
+    background-color: white;
+    border-color: var(--colorSecundario);
+    border-width: 2px;
+  }

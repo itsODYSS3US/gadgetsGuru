@@ -1,0 +1,7 @@
+.footer {
+    background-color: var(--colorBaseOscuro);
+    /* padding: 20px 0; */
+    text-align: center;
+    color: white;
+    min-height: 2vw;
+  }

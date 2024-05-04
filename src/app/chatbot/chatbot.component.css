@@ -1,0 +1,122 @@
+/* chat.component.css */
+.chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .chat-message {
+    margin-bottom: 10px;
+  }
+  
+  .chat-message-sender {
+    font-weight: bold;
+  }
+  
+  .chat-message-content {
+    margin-left: 10px;
+  }
+  
+  .chat-input {
+    height: 100px;
+  }
+  
+
+  /* Botón de ayuda */
+  .help{
+    display: flex;
+    position: fixed;
+    right: 1vw;
+  }
+
+  .helpbtn{
+    color: black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-width: 8px;
+  }
+
+
+
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px; /* Ajusta el ancho según tu diseño */
+    margin: 20px auto;
+  }
+
+  .mensaje {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  /* Estilos para el mensaje del usuario */
+  .usuario {
+    background-color: #f2f2f2;
+    align-self: flex-start;
+  }
+  /* Estilos para el mensaje del bot */
+  .bot {
+    background-color: #e0f2f1;
+    align-self: flex-end;
+    border: 2px solid #007bff; /* Borde azul */
+  }
+  /* Estilos para el input */
+  .input-area {
+    display: flex;
+  }
+  .input-area input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .input-area button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .pos{
+    display: flex;
+    position: fixed;
+    max-width: 350px;
+    top: 92%;
+  }
+
+  .btn-secondary{
+    background-color: var(--colorSecundario);
+  }
+
+@media (min-width: 400px) and (max-width: 960px) {
+  .offcanvas {
+    width: 100%;
+  }
+}
+
+@media (min-width: 960px) {
+  .offcanvas {
+    width: 40%;
+  }
+
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%; /* Ajusta el ancho según tu diseño */
+    margin: 20px auto;
+  }
+
+  .pos{
+    display: flex;
+    position: fixed;
+    max-width: 528px;
+    top: 92%;
+  }
+  
+}
