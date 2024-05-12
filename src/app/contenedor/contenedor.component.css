@@ -1,0 +1,66 @@
+:root {
+  --colorPrimario: #3C6EB3;
+  --colorSecundario: #456189;
+  --colorComplementario: #2672DE;
+  --colorBaseOscuro: #3F4C5E;
+  --colorBase: #2B2F34;
+}
+
+.container {
+  max-width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  padding: 5vh;
+}
+
+.content {
+  padding: 15px;
+  max-width: 70vw;
+  flex-direction: column;
+  background-color: white;
+}
+
+.recommendations {
+  background-color: lightgray;
+  text-align: center;
+  margin: 2vw;
+  padding: 50px;
+  margin-bottom: 10vh;
+}
+
+.brands {
+  background-color: lightgray;
+  padding: 2vi;
+  max-height: 25vh;
+  margin: 2vw; /* Margen derecho para separar las imágenes */
+}
+
+.brands img {
+  border-radius: 100%;
+  max-width: 10%;
+  height: auto;
+}
+
+.sidebar {
+  min-width: 15vw;
+  max-width: 17vw;
+  height: auto;
+  font-size: 1.3vi;
+  background-color: var(--colorComplementario);
+  color: #fff;
+  position: relative;
+  border-radius: 2vi;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sidebar ul li a i {
+  margin-right: 15px;
+}

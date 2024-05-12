@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./contenedor.component.css']
 })
 export class ContenedorComponent {
+  recomendaciones = ['Recomendación 1', 'Recomendación 2', 'Recomendación 3'];
+
 
 }
