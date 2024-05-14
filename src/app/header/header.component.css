@@ -8,3 +8,15 @@
     border-color: var(--colorSecundario);
     border-width: 2px;
   }
+
+  span{
+    margin-right: 10px;
+  }
+
+  .input-group-text {
+    transition: transform 0.2s ease;
+  }
+
+  .input-group-text:active {
+    transform: scale(0.9);
+  }

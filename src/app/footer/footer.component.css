@@ -1,7 +1,23 @@
 .footer {
     background-color: var(--colorBaseOscuro);
     /* padding: 20px 0; */
+    padding-top: 40px;
     text-align: center;
     color: white;
-    min-height: 2vw;
+    font-family: 'Comic Sans MS', cursive;
+    min-height: 5vw;
     }
+
+#Texto_footer {
+    animation: escribiendo 6s steps(40) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #000;
+    width: 50%; 
+    margin: 0 auto; 
+}
+
+@keyframes escribiendo {
+    from { width: 0; }
+    to { width: 100%; }
+}

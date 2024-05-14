@@ -24,16 +24,16 @@
 .recommendations {
   background-color: lightgray;
   text-align: center;
-  margin: 2vw;
-  padding: 50px;
-  margin-bottom: 10vh;
+  margin: 5vw;
+  padding: 130px;
+  margin-bottom: 8vh;
 }
 
 .brands {
   background-color: lightgray;
   padding: 2vi;
   max-height: 25vh;
-  margin: 2vw; /* Margen derecho para separar las imágenes */
+  margin: 5vw;
 }
 
 .brands img {
@@ -50,6 +50,7 @@
   background-color: var(--colorComplementario);
   color: #fff;
   position: relative;
+  top: 140px;
   border-radius: 2vi;
 }
 
@@ -63,4 +64,19 @@
 
 .sidebar ul li a i {
   margin-right: 15px;
+}
+
+.logo-top {
+  position: absolute; 
+  top: 80px; 
+  right: 750px; 
+  width: 100%; 
+  text-align: center; 
+  z-index: 10; 
+}
+
+.logo-top img {
+  width: 180px; 
+  height: auto; 
+  margin-top: 10px;
 }
